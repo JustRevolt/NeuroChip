@@ -1,16 +1,16 @@
 # NeuroChip
 
-Table of Contents:
+Содержание:
 
-1. [NeuroChip architecture](#NeuroChip-architecture)
-2. [Tensor core](/tensor_core/README.md)
-3. [Neuromorphic core](/neuromorphic_core/readme.md)
+1. [Системная архитектура нейропроцессора](#NeuroChip-architecture)
+2. [Тензорное ядро: архитектура и микроархитектура](/tensor_core/README.md)
+3. [Нейроморфное ядро: архитектура и микроархитектура](/neuromorphic_core/readme.md)
 
 ## NeuroChip architecture <a name="NeuroChip-architecture"></a>
 
-<img alt="NeuroChip system architecture" src="docs\imgs\neurochip_sys_arch.png" width="800"/>
+<img alt="NeuroChip system architecture" src="docs/imgs/neurochip_sys_arch.png" width="800"/>
 
-На схеме представлена системная архитектура Нейрочипа.
+На схеме представлена системная архитектура нейропроцессора.
 
 Элемены Нейрочипа:
 
