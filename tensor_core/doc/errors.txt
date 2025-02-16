@@ -1,0 +1,4 @@
+ERROR: [Synth 8-439] module 'XPM_FIFO_SYNC' not found
+
+Solution:
+TCL console> set_property XPM_LIBRARIES XPM_FIFO [current_project]

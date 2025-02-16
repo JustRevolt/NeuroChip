@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_fifo_ip_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_fifo_ip" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="64166666666fs"></ZoomStartTime>
+      <ZoomEndTime time="182831006768fs"></ZoomEndTime>
+      <Cursor1Time time="335000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="395"></NameColumnWidth>
+      <ValueColumnWidth column_width="210"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group238" type="group">
+      <obj_property name="label">FIFO ext signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_fifo_ip/fifo_clk" type="logic">
+         <obj_property name="ElementShortName">fifo_clk</obj_property>
+         <obj_property name="ObjectShortName">fifo_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/fifo_rst" type="logic">
+         <obj_property name="ElementShortName">fifo_rst</obj_property>
+         <obj_property name="ObjectShortName">fifo_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/activation_fifo_din" type="array">
+         <obj_property name="ElementShortName">activation_fifo_din[31:0]</obj_property>
+         <obj_property name="ObjectShortName">activation_fifo_din[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/activation_fifo_wr_en" type="logic">
+         <obj_property name="ElementShortName">activation_fifo_wr_en</obj_property>
+         <obj_property name="ObjectShortName">activation_fifo_wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/activation_fifo_rd_en" type="logic">
+         <obj_property name="ElementShortName">activation_fifo_rd_en</obj_property>
+         <obj_property name="ObjectShortName">activation_fifo_rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/activation_fifo_dout" type="array">
+         <obj_property name="ElementShortName">activation_fifo_dout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">activation_fifo_dout[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/activation_fifo_full" type="logic">
+         <obj_property name="ElementShortName">activation_fifo_full</obj_property>
+         <obj_property name="ObjectShortName">activation_fifo_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/activation_fifo_empty" type="logic">
+         <obj_property name="ElementShortName">activation_fifo_empty</obj_property>
+         <obj_property name="ObjectShortName">activation_fifo_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/activation_fifo_rd_data_count" type="array">
+         <obj_property name="ElementShortName">activation_fifo_rd_data_count[4:0]</obj_property>
+         <obj_property name="ObjectShortName">activation_fifo_rd_data_count[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/activation_fifo_wr_data_count" type="array">
+         <obj_property name="ElementShortName">activation_fifo_wr_data_count[4:0]</obj_property>
+         <obj_property name="ObjectShortName">activation_fifo_wr_data_count[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/SYSTOL_ACTIVATION_COUNT" type="array">
+         <obj_property name="ElementShortName">SYSTOL_ACTIVATION_COUNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SYSTOL_ACTIVATION_COUNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/ACTIVATION_QUEUE_DEPTH" type="array">
+         <obj_property name="ElementShortName">ACTIVATION_QUEUE_DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ACTIVATION_QUEUE_DEPTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/SYSTOL_WEIGHT_COUNT" type="array">
+         <obj_property name="ElementShortName">SYSTOL_WEIGHT_COUNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SYSTOL_WEIGHT_COUNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/WEIGHT_QUEUE_DEPTH" type="array">
+         <obj_property name="ElementShortName">WEIGHT_QUEUE_DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WEIGHT_QUEUE_DEPTH[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group286" type="group">
+      <obj_property name="label">FIFO inter signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/sleep" type="logic">
+         <obj_property name="ElementShortName">sleep</obj_property>
+         <obj_property name="ObjectShortName">sleep</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/wr_clk" type="logic">
+         <obj_property name="ElementShortName">wr_clk</obj_property>
+         <obj_property name="ObjectShortName">wr_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/wr_en" type="logic">
+         <obj_property name="ElementShortName">wr_en</obj_property>
+         <obj_property name="ObjectShortName">wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/din" type="array">
+         <obj_property name="ElementShortName">din[31:0]</obj_property>
+         <obj_property name="ObjectShortName">din[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/full" type="logic">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/prog_full" type="logic">
+         <obj_property name="ElementShortName">prog_full</obj_property>
+         <obj_property name="ObjectShortName">prog_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/wr_data_count" type="array">
+         <obj_property name="ElementShortName">wr_data_count[4:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_data_count[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/overflow" type="logic">
+         <obj_property name="ElementShortName">overflow</obj_property>
+         <obj_property name="ObjectShortName">overflow</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/wr_rst_busy" type="logic">
+         <obj_property name="ElementShortName">wr_rst_busy</obj_property>
+         <obj_property name="ObjectShortName">wr_rst_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/almost_full" type="logic">
+         <obj_property name="ElementShortName">almost_full</obj_property>
+         <obj_property name="ObjectShortName">almost_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/wr_ack" type="logic">
+         <obj_property name="ElementShortName">wr_ack</obj_property>
+         <obj_property name="ObjectShortName">wr_ack</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/rd_en" type="logic">
+         <obj_property name="ElementShortName">rd_en</obj_property>
+         <obj_property name="ObjectShortName">rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/dout" type="array">
+         <obj_property name="ElementShortName">dout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/empty" type="logic">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/prog_empty" type="logic">
+         <obj_property name="ElementShortName">prog_empty</obj_property>
+         <obj_property name="ObjectShortName">prog_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/rd_data_count" type="array">
+         <obj_property name="ElementShortName">rd_data_count[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_data_count[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/underflow" type="logic">
+         <obj_property name="ElementShortName">underflow</obj_property>
+         <obj_property name="ObjectShortName">underflow</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/rd_rst_busy" type="logic">
+         <obj_property name="ElementShortName">rd_rst_busy</obj_property>
+         <obj_property name="ObjectShortName">rd_rst_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/almost_empty" type="logic">
+         <obj_property name="ElementShortName">almost_empty</obj_property>
+         <obj_property name="ObjectShortName">almost_empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/data_valid" type="logic">
+         <obj_property name="ElementShortName">data_valid</obj_property>
+         <obj_property name="ObjectShortName">data_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/injectsbiterr" type="logic">
+         <obj_property name="ElementShortName">injectsbiterr</obj_property>
+         <obj_property name="ObjectShortName">injectsbiterr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/injectdbiterr" type="logic">
+         <obj_property name="ElementShortName">injectdbiterr</obj_property>
+         <obj_property name="ObjectShortName">injectdbiterr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/sbiterr" type="logic">
+         <obj_property name="ElementShortName">sbiterr</obj_property>
+         <obj_property name="ObjectShortName">sbiterr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/dbiterr" type="logic">
+         <obj_property name="ElementShortName">dbiterr</obj_property>
+         <obj_property name="ObjectShortName">dbiterr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/FIFO_MEMORY_TYPE" type="array">
+         <obj_property name="ElementShortName">FIFO_MEMORY_TYPE[39:0]</obj_property>
+         <obj_property name="ObjectShortName">FIFO_MEMORY_TYPE[39:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/ECC_MODE" type="array">
+         <obj_property name="ElementShortName">ECC_MODE[47:0]</obj_property>
+         <obj_property name="ObjectShortName">ECC_MODE[47:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/SIM_ASSERT_CHK" type="array">
+         <obj_property name="ElementShortName">SIM_ASSERT_CHK[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SIM_ASSERT_CHK[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/FIFO_WRITE_DEPTH" type="array">
+         <obj_property name="ElementShortName">FIFO_WRITE_DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FIFO_WRITE_DEPTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/WRITE_DATA_WIDTH" type="array">
+         <obj_property name="ElementShortName">WRITE_DATA_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WRITE_DATA_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/WR_DATA_COUNT_WIDTH" type="array">
+         <obj_property name="ElementShortName">WR_DATA_COUNT_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WR_DATA_COUNT_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/PROG_FULL_THRESH" type="array">
+         <obj_property name="ElementShortName">PROG_FULL_THRESH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PROG_FULL_THRESH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/FULL_RESET_VALUE" type="array">
+         <obj_property name="ElementShortName">FULL_RESET_VALUE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FULL_RESET_VALUE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/USE_ADV_FEATURES" type="array">
+         <obj_property name="ElementShortName">USE_ADV_FEATURES[31:0]</obj_property>
+         <obj_property name="ObjectShortName">USE_ADV_FEATURES[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/READ_MODE" type="array">
+         <obj_property name="ElementShortName">READ_MODE[23:0]</obj_property>
+         <obj_property name="ObjectShortName">READ_MODE[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/FIFO_READ_LATENCY" type="array">
+         <obj_property name="ElementShortName">FIFO_READ_LATENCY[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FIFO_READ_LATENCY[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/READ_DATA_WIDTH" type="array">
+         <obj_property name="ElementShortName">READ_DATA_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">READ_DATA_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/RD_DATA_COUNT_WIDTH" type="array">
+         <obj_property name="ElementShortName">RD_DATA_COUNT_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RD_DATA_COUNT_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/PROG_EMPTY_THRESH" type="array">
+         <obj_property name="ElementShortName">PROG_EMPTY_THRESH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PROG_EMPTY_THRESH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/DOUT_RESET_VALUE" type="array">
+         <obj_property name="ElementShortName">DOUT_RESET_VALUE[7:0]</obj_property>
+         <obj_property name="ObjectShortName">DOUT_RESET_VALUE[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/WAKEUP_TIME" type="array">
+         <obj_property name="ElementShortName">WAKEUP_TIME[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WAKEUP_TIME[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/EN_ADV_FEATURE_SYNC" type="array">
+         <obj_property name="ElementShortName">EN_ADV_FEATURE_SYNC[15:0]</obj_property>
+         <obj_property name="ObjectShortName">EN_ADV_FEATURE_SYNC[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/P_FIFO_MEMORY_TYPE" type="array">
+         <obj_property name="ElementShortName">P_FIFO_MEMORY_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_FIFO_MEMORY_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/P_COMMON_CLOCK" type="array">
+         <obj_property name="ElementShortName">P_COMMON_CLOCK[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_COMMON_CLOCK[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/P_ECC_MODE" type="array">
+         <obj_property name="ElementShortName">P_ECC_MODE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_ECC_MODE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/P_READ_MODE" type="array">
+         <obj_property name="ElementShortName">P_READ_MODE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_READ_MODE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_fifo_ip/xpm_fifo_sync_inst/P_WAKEUP_TIME" type="array">
+         <obj_property name="ElementShortName">P_WAKEUP_TIME[31:0]</obj_property>
+         <obj_property name="ObjectShortName">P_WAKEUP_TIME[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

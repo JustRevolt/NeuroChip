@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_accumulators_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_accumulators" />
+            <top_module name="types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="19166667fs"></ZoomStartTime>
+      <ZoomEndTime time="204166668fs"></ZoomEndTime>
+      <Cursor1Time time="65001000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="395"></NameColumnWidth>
+      <ValueColumnWidth column_width="368"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group35" type="group">
+      <obj_property name="label">Accum ext control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_accumulators/accum_clk" type="logic">
+         <obj_property name="ElementShortName">accum_clk</obj_property>
+         <obj_property name="ObjectShortName">accum_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_accumulators/accum_rst" type="logic">
+         <obj_property name="ElementShortName">accum_rst</obj_property>
+         <obj_property name="ObjectShortName">accum_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_accumulators/accum_in_data" type="array">
+         <obj_property name="ElementShortName">accum_in_data[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">accum_in_data[0:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_accumulators/accum_adder_chain_set" type="array">
+         <obj_property name="ElementShortName">accum_adder_chain_set[2:15]</obj_property>
+         <obj_property name="ObjectShortName">accum_adder_chain_set[2:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_accumulators/accum_out_data_mux" type="array">
+         <obj_property name="ElementShortName">accum_out_data_mux[1:15]</obj_property>
+         <obj_property name="ObjectShortName">accum_out_data_mux[1:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_accumulators/accum_out_data" type="array">
+         <obj_property name="ElementShortName">accum_out_data[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">accum_out_data[0:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[9]" type="array">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[10]" type="array">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[11]" type="array">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[12]" type="array">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[13]" type="array">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[14]" type="array">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[15]" type="array">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[9]" type="array">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[10]" type="array">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[11]" type="array">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[12]" type="array">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[13]" type="array">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[14]" type="array">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum_out_data[15]" type="array">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_accumulators/data" type="array">
+         <obj_property name="ElementShortName">data[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">data[0:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_accumulators/ACCUM_SIZE" type="array">
+         <obj_property name="ElementShortName">ACCUM_SIZE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ACCUM_SIZE[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group36" type="group">
+      <obj_property name="label">Accum inter signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_accumulators/accum/clk_i" type="logic">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_accumulators/accum/rst_i" type="logic">
+         <obj_property name="ElementShortName">rst_i</obj_property>
+         <obj_property name="ObjectShortName">rst_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_accumulators/accum/data_i" type="array">
+         <obj_property name="ElementShortName">data_i[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_i[0:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_accumulators/accum/data_i[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_i[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_i[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_i[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_i[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_i[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_i[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_i[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_i[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_i[9]" type="array">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_i[10]" type="array">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_i[11]" type="array">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_i[12]" type="array">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_i[13]" type="array">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_i[14]" type="array">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_i[15]" type="array">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_accumulators/accum/adder_chain_set_i" type="array">
+         <obj_property name="ElementShortName">adder_chain_set_i[2:15]</obj_property>
+         <obj_property name="ObjectShortName">adder_chain_set_i[2:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_accumulators/accum/out_data_mux_i" type="array">
+         <obj_property name="ElementShortName">out_data_mux_i[1:15]</obj_property>
+         <obj_property name="ObjectShortName">out_data_mux_i[1:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_accumulators/accum/data_o" type="array">
+         <obj_property name="ElementShortName">data_o[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_o[0:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_accumulators/accum/data_o[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_o[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_o[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_o[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_o[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_o[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_o[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_o[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_o[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_o[9]" type="array">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_o[10]" type="array">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_o[11]" type="array">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_o[12]" type="array">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_o[13]" type="array">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_o[14]" type="array">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/data_o[15]" type="array">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_accumulators/accum/in_data_buf" type="array">
+         <obj_property name="ElementShortName">in_data_buf[0:15][2:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">in_data_buf[0:15][2:0][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_accumulators/accum/in_data_buf[0]" type="array">
+            <obj_property name="ElementShortName">[0][2:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][2:0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/in_data_buf[1]" type="array">
+            <obj_property name="ElementShortName">[1][2:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][2:0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/in_data_buf[2]" type="array">
+            <obj_property name="ElementShortName">[2][2:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][2:0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/in_data_buf[3]" type="array">
+            <obj_property name="ElementShortName">[3][2:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][2:0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/in_data_buf[4]" type="array">
+            <obj_property name="ElementShortName">[4][2:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][2:0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/in_data_buf[5]" type="array">
+            <obj_property name="ElementShortName">[5][2:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][2:0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/in_data_buf[6]" type="array">
+            <obj_property name="ElementShortName">[6][2:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][2:0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/in_data_buf[7]" type="array">
+            <obj_property name="ElementShortName">[7][2:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][2:0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/in_data_buf[8]" type="array">
+            <obj_property name="ElementShortName">[8][2:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][2:0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/in_data_buf[9]" type="array">
+            <obj_property name="ElementShortName">[9][2:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][2:0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/in_data_buf[10]" type="array">
+            <obj_property name="ElementShortName">[10][2:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][2:0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/in_data_buf[11]" type="array">
+            <obj_property name="ElementShortName">[11][2:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][2:0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/in_data_buf[12]" type="array">
+            <obj_property name="ElementShortName">[12][2:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][2:0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/in_data_buf[13]" type="array">
+            <obj_property name="ElementShortName">[13][2:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][2:0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/in_data_buf[14]" type="array">
+            <obj_property name="ElementShortName">[14][2:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][2:0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/in_data_buf[15]" type="array">
+            <obj_property name="ElementShortName">[15][2:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][2:0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_accumulators/accum/accumulation_reg" type="array">
+         <obj_property name="ElementShortName">accumulation_reg[1:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">accumulation_reg[1:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_accumulators/accum/accumulation_reg[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/accumulation_reg[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/accumulation_reg[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/accumulation_reg[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/accumulation_reg[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/accumulation_reg[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/accumulation_reg[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/accumulation_reg[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/accumulation_reg[9]" type="array">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/accumulation_reg[10]" type="array">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/accumulation_reg[11]" type="array">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/accumulation_reg[12]" type="array">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/accumulation_reg[13]" type="array">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/accumulation_reg[14]" type="array">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_accumulators/accum/accumulation_reg[15]" type="array">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_accumulators/accum/adder_op1" type="array">
+         <obj_property name="ElementShortName">adder_op1[1:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">adder_op1[1:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_accumulators/accum/adder_op2" type="array">
+         <obj_property name="ElementShortName">adder_op2[1:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">adder_op2[1:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_accumulators/accum/IN_SIZE" type="array">
+         <obj_property name="ElementShortName">IN_SIZE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IN_SIZE[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

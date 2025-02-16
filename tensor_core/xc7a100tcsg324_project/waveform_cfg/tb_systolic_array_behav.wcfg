@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_systolic_array_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_systolic_array" />
+            <top_module name="types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="430313291fs"></ZoomStartTime>
+      <ZoomEndTime time="485894130fs"></ZoomEndTime>
+      <Cursor1Time time="705001000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="395"></NameColumnWidth>
+      <ValueColumnWidth column_width="543"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group25" type="group">
+      <obj_property name="label">Systol_arr ext control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_systolic_array/systol_arr_clk" type="logic">
+         <obj_property name="ElementShortName">systol_arr_clk</obj_property>
+         <obj_property name="ObjectShortName">systol_arr_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/systol_arr_rst" type="logic">
+         <obj_property name="ElementShortName">systol_arr_rst</obj_property>
+         <obj_property name="ObjectShortName">systol_arr_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/systol_arr_weight_update" type="logic">
+         <obj_property name="ElementShortName">systol_arr_weight_update</obj_property>
+         <obj_property name="ObjectShortName">systol_arr_weight_update</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/systol_arr_activation" type="array">
+         <obj_property name="ElementShortName">systol_arr_activation[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">systol_arr_activation[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/systol_arr_weight" type="array">
+         <obj_property name="ElementShortName">systol_arr_weight[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">systol_arr_weight[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/systol_arr_result" type="array">
+         <obj_property name="ElementShortName">systol_arr_result[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">systol_arr_result[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/weight_column_num" type="array">
+         <obj_property name="ElementShortName">weight_column_num[31:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_column_num[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/proc_ctr" type="array">
+         <obj_property name="ElementShortName">proc_ctr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">proc_ctr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/weight_matrix_1" type="array">
+         <obj_property name="ElementShortName">weight_matrix_1[0:15][0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_matrix_1[0:15][0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/activation_matrix_1" type="array">
+         <obj_property name="ElementShortName">activation_matrix_1[0:15][0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">activation_matrix_1[0:15][0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/result_matrix_1" type="array">
+         <obj_property name="ElementShortName">result_matrix_1[0:15][0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">result_matrix_1[0:15][0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/weight_matrix_2" type="array">
+         <obj_property name="ElementShortName">weight_matrix_2[0:15][0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_matrix_2[0:15][0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/activation_matrix_2" type="array">
+         <obj_property name="ElementShortName">activation_matrix_2[0:15][0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">activation_matrix_2[0:15][0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/result_matrix_2" type="array">
+         <obj_property name="ElementShortName">result_matrix_2[0:15][0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">result_matrix_2[0:15][0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/SYSTOL_ACTIVATION_COUNT" type="array">
+         <obj_property name="ElementShortName">SYSTOL_ACTIVATION_COUNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SYSTOL_ACTIVATION_COUNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/SYSTOL_WEIGHT_COUNT" type="array">
+         <obj_property name="ElementShortName">SYSTOL_WEIGHT_COUNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SYSTOL_WEIGHT_COUNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/WEIGHT_MATRIX_SIZE_X" type="array">
+         <obj_property name="ElementShortName">WEIGHT_MATRIX_SIZE_X[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WEIGHT_MATRIX_SIZE_X[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/WEIGHT_MATRIX_SIZE_Y" type="array">
+         <obj_property name="ElementShortName">WEIGHT_MATRIX_SIZE_Y[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WEIGHT_MATRIX_SIZE_Y[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/ACTIVATION_MATRIX_SIZE_X" type="array">
+         <obj_property name="ElementShortName">ACTIVATION_MATRIX_SIZE_X[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ACTIVATION_MATRIX_SIZE_X[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/ACTIVATION_MATRIX_SIZE_Y" type="array">
+         <obj_property name="ElementShortName">ACTIVATION_MATRIX_SIZE_Y[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ACTIVATION_MATRIX_SIZE_Y[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group26" type="group">
+      <obj_property name="label">Systol_arr inter signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_systolic_array/systol_arr/clk_i" type="logic">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/systol_arr/rst_i" type="logic">
+         <obj_property name="ElementShortName">rst_i</obj_property>
+         <obj_property name="ObjectShortName">rst_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/systol_arr/weight_update_i" type="logic">
+         <obj_property name="ElementShortName">weight_update_i</obj_property>
+         <obj_property name="ObjectShortName">weight_update_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/systol_arr/activation_i" type="array">
+         <obj_property name="ElementShortName">activation_i[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">activation_i[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/systol_arr/weight_i" type="array">
+         <obj_property name="ElementShortName">weight_i[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_i[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/systol_arr/result_o" type="array">
+         <obj_property name="ElementShortName">result_o[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">result_o[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/systol_arr/state" type="logic">
+         <obj_property name="ElementShortName">state</obj_property>
+         <obj_property name="ObjectShortName">state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/systol_arr/next_state" type="logic">
+         <obj_property name="ElementShortName">next_state</obj_property>
+         <obj_property name="ObjectShortName">next_state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/systol_arr/mac_res" type="array">
+         <obj_property name="ElementShortName">mac_res[0:15][0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">mac_res[0:15][0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/systol_arr/weight_reg" type="array">
+         <obj_property name="ElementShortName">weight_reg[0:15][0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_reg[0:15][0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/systol_arr/activation_reg" type="array">
+         <obj_property name="ElementShortName">activation_reg[0:15][0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">activation_reg[0:15][0:15][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/systol_arr/ACTIVATION_COUNT" type="array">
+         <obj_property name="ElementShortName">ACTIVATION_COUNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ACTIVATION_COUNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/systol_arr/WEIGHT_COUNT" type="array">
+         <obj_property name="ElementShortName">WEIGHT_COUNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WEIGHT_COUNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/systol_arr/DATA_FILL" type="array">
+         <obj_property name="ElementShortName">DATA_FILL[1:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_FILL[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_systolic_array/systol_arr/CALCULATION" type="array">
+         <obj_property name="ElementShortName">CALCULATION[1:0]</obj_property>
+         <obj_property name="ObjectShortName">CALCULATION[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

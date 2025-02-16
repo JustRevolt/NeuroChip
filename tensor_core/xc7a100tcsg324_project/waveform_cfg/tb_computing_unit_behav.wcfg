@@ -1,0 +1,1486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_computing_unit_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_computing_unit" />
+            <top_module name="types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1811917666fs"></ZoomStartTime>
+      <ZoomEndTime time="1995617667fs"></ZoomEndTime>
+      <Cursor1Time time="1965001000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="502"></NameColumnWidth>
+      <ValueColumnWidth column_width="480"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="group20" type="group">
+      <obj_property name="label">CompUnit ext signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_computing_unit/sys_clk" type="logic">
+         <obj_property name="ElementShortName">sys_clk</obj_property>
+         <obj_property name="ObjectShortName">sys_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/sys_rst" type="logic">
+         <obj_property name="ElementShortName">sys_rst</obj_property>
+         <obj_property name="ObjectShortName">sys_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu_rst_busy" type="logic">
+         <obj_property name="ElementShortName">cu_rst_busy</obj_property>
+         <obj_property name="ObjectShortName">cu_rst_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu_weight_update" type="logic">
+         <obj_property name="ElementShortName">cu_weight_update</obj_property>
+         <obj_property name="ObjectShortName">cu_weight_update</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu_weight_update_busy" type="logic">
+         <obj_property name="ElementShortName">cu_weight_update_busy</obj_property>
+         <obj_property name="ObjectShortName">cu_weight_update_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu_activation" type="array">
+         <obj_property name="ElementShortName">cu_activation[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">cu_activation[0:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu_activation_wr_en" type="logic">
+         <obj_property name="ElementShortName">cu_activation_wr_en</obj_property>
+         <obj_property name="ObjectShortName">cu_activation_wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu_activation_full" type="logic">
+         <obj_property name="ElementShortName">cu_activation_full</obj_property>
+         <obj_property name="ObjectShortName">cu_activation_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu_weight" type="array">
+         <obj_property name="ElementShortName">cu_weight[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">cu_weight[0:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu_weight_wr_en" type="logic">
+         <obj_property name="ElementShortName">cu_weight_wr_en</obj_property>
+         <obj_property name="ObjectShortName">cu_weight_wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu_weight_full" type="logic">
+         <obj_property name="ElementShortName">cu_weight_full</obj_property>
+         <obj_property name="ObjectShortName">cu_weight_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu_accum_adder_chain_set" type="array">
+         <obj_property name="ElementShortName">cu_accum_adder_chain_set[2:15]</obj_property>
+         <obj_property name="ObjectShortName">cu_accum_adder_chain_set[2:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu_accum_out_data_mux" type="array">
+         <obj_property name="ElementShortName">cu_accum_out_data_mux[1:15]</obj_property>
+         <obj_property name="ObjectShortName">cu_accum_out_data_mux[1:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu_offset" type="array">
+         <obj_property name="ElementShortName">cu_offset[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">cu_offset[0:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu_offset_wr_en" type="logic">
+         <obj_property name="ElementShortName">cu_offset_wr_en</obj_property>
+         <obj_property name="ObjectShortName">cu_offset_wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu_offset_full" type="logic">
+         <obj_property name="ElementShortName">cu_offset_full</obj_property>
+         <obj_property name="ObjectShortName">cu_offset_full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu_result" type="array">
+         <obj_property name="ElementShortName">cu_result[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">cu_result[0:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/assert_count" type="array">
+         <obj_property name="ElementShortName">assert_count[31:0]</obj_property>
+         <obj_property name="ObjectShortName">assert_count[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/error_assert_count" type="array">
+         <obj_property name="ElementShortName">error_assert_count[31:0]</obj_property>
+         <obj_property name="ObjectShortName">error_assert_count[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/weight_column_num" type="array">
+         <obj_property name="ElementShortName">weight_column_num[31:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_column_num[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/weight_row_num" type="array">
+         <obj_property name="ElementShortName">weight_row_num[31:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_row_num[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/activation_row_num" type="array">
+         <obj_property name="ElementShortName">activation_row_num[31:0]</obj_property>
+         <obj_property name="ObjectShortName">activation_row_num[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/offset_row_num" type="array">
+         <obj_property name="ElementShortName">offset_row_num[31:0]</obj_property>
+         <obj_property name="ObjectShortName">offset_row_num[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/proc_ctr" type="array">
+         <obj_property name="ElementShortName">proc_ctr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">proc_ctr[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/col" type="array">
+         <obj_property name="ElementShortName">col[31:0]</obj_property>
+         <obj_property name="ObjectShortName">col[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/row" type="array">
+         <obj_property name="ElementShortName">row[31:0]</obj_property>
+         <obj_property name="ObjectShortName">row[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/start_time" type="array">
+         <obj_property name="ElementShortName">start_time[63:0]</obj_property>
+         <obj_property name="ObjectShortName">start_time[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/end_time" type="array">
+         <obj_property name="ElementShortName">end_time[63:0]</obj_property>
+         <obj_property name="ObjectShortName">end_time[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="group278" type="group">
+         <obj_property name="label">test1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_computing_unit/weight_matrix_1" type="array">
+            <obj_property name="ElementShortName">weight_matrix_1[0:15][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">weight_matrix_1[0:15][0:15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/activation_matrix_1" type="array">
+            <obj_property name="ElementShortName">activation_matrix_1[0:15][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">activation_matrix_1[0:15][0:15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/offset_matrix_1" type="array">
+            <obj_property name="ElementShortName">offset_matrix_1[0:15][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">offset_matrix_1[0:15][0:15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/mul_result_matrix_1" type="array">
+            <obj_property name="ElementShortName">mul_result_matrix_1[0:15][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">mul_result_matrix_1[0:15][0:15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/offset_result_matrix_1" type="array">
+            <obj_property name="ElementShortName">offset_result_matrix_1[0:15][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">offset_result_matrix_1[0:15][0:15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu_result_matrix_1" type="array">
+            <obj_property name="ElementShortName">cu_result_matrix_1[0:15][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">cu_result_matrix_1[0:15][0:15][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group279" type="group">
+         <obj_property name="label">test2</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_computing_unit/weight_matrix_2" type="array">
+            <obj_property name="ElementShortName">weight_matrix_2[0:15][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">weight_matrix_2[0:15][0:15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/activation_matrix_2" type="array">
+            <obj_property name="ElementShortName">activation_matrix_2[0:15][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">activation_matrix_2[0:15][0:15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/offset_matrix_2" type="array">
+            <obj_property name="ElementShortName">offset_matrix_2[0:15][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">offset_matrix_2[0:15][0:15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/mul_result_matrix_2" type="array">
+            <obj_property name="ElementShortName">mul_result_matrix_2[0:15][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">mul_result_matrix_2[0:15][0:15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/offset_result_matrix_2" type="array">
+            <obj_property name="ElementShortName">offset_result_matrix_2[0:15][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">offset_result_matrix_2[0:15][0:15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu_result_matrix_2" type="array">
+            <obj_property name="ElementShortName">cu_result_matrix_2[0:15][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">cu_result_matrix_2[0:15][0:15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/WEIGHT_X_SIZE_2" type="array">
+            <obj_property name="ElementShortName">WEIGHT_X_SIZE_2[31:0]</obj_property>
+            <obj_property name="ObjectShortName">WEIGHT_X_SIZE_2[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/WEIGHT_Y_SIZE_2" type="array">
+            <obj_property name="ElementShortName">WEIGHT_Y_SIZE_2[31:0]</obj_property>
+            <obj_property name="ObjectShortName">WEIGHT_Y_SIZE_2[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/ACTIVATION_X_SIZE_2" type="array">
+            <obj_property name="ElementShortName">ACTIVATION_X_SIZE_2[31:0]</obj_property>
+            <obj_property name="ObjectShortName">ACTIVATION_X_SIZE_2[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/ACTIVATION_Y_SIZE_2" type="array">
+            <obj_property name="ElementShortName">ACTIVATION_Y_SIZE_2[31:0]</obj_property>
+            <obj_property name="ObjectShortName">ACTIVATION_Y_SIZE_2[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/OFFSET_X_SIZE_2" type="array">
+            <obj_property name="ElementShortName">OFFSET_X_SIZE_2[31:0]</obj_property>
+            <obj_property name="ObjectShortName">OFFSET_X_SIZE_2[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/OFFSET_Y_SIZE_2" type="array">
+            <obj_property name="ElementShortName">OFFSET_Y_SIZE_2[31:0]</obj_property>
+            <obj_property name="ObjectShortName">OFFSET_Y_SIZE_2[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group280" type="group">
+         <obj_property name="label">test3</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb_computing_unit/weight_matrix_3" type="array">
+            <obj_property name="ElementShortName">weight_matrix_3[0:15][0:26][31:0]</obj_property>
+            <obj_property name="ObjectShortName">weight_matrix_3[0:15][0:26][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/tb_computing_unit/weight_matrix_3[0]" type="array">
+               <obj_property name="ElementShortName">[0][0:26][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[0][0:26][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/weight_matrix_3[1]" type="array">
+               <obj_property name="ElementShortName">[1][0:26][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[1][0:26][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/weight_matrix_3[2]" type="array">
+               <obj_property name="ElementShortName">[2][0:26][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[2][0:26][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/weight_matrix_3[3]" type="array">
+               <obj_property name="ElementShortName">[3][0:26][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[3][0:26][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/weight_matrix_3[4]" type="array">
+               <obj_property name="ElementShortName">[4][0:26][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[4][0:26][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/weight_matrix_3[5]" type="array">
+               <obj_property name="ElementShortName">[5][0:26][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[5][0:26][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/weight_matrix_3[6]" type="array">
+               <obj_property name="ElementShortName">[6][0:26][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[6][0:26][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/weight_matrix_3[7]" type="array">
+               <obj_property name="ElementShortName">[7][0:26][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[7][0:26][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/weight_matrix_3[8]" type="array">
+               <obj_property name="ElementShortName">[8][0:26][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[8][0:26][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/weight_matrix_3[9]" type="array">
+               <obj_property name="ElementShortName">[9][0:26][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[9][0:26][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/weight_matrix_3[10]" type="array">
+               <obj_property name="ElementShortName">[10][0:26][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[10][0:26][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/weight_matrix_3[11]" type="array">
+               <obj_property name="ElementShortName">[11][0:26][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[11][0:26][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/weight_matrix_3[12]" type="array">
+               <obj_property name="ElementShortName">[12][0:26][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[12][0:26][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/weight_matrix_3[13]" type="array">
+               <obj_property name="ElementShortName">[13][0:26][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[13][0:26][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/weight_matrix_3[14]" type="array">
+               <obj_property name="ElementShortName">[14][0:26][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[14][0:26][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/weight_matrix_3[15]" type="array">
+               <obj_property name="ElementShortName">[15][0:26][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[15][0:26][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3" type="array">
+            <obj_property name="ElementShortName">preproc_weight_matrix_3[0:31][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">preproc_weight_matrix_3[0:31][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[0]" type="array">
+               <obj_property name="ElementShortName">[0][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[0][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[1]" type="array">
+               <obj_property name="ElementShortName">[1][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[1][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[2]" type="array">
+               <obj_property name="ElementShortName">[2][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[2][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[3]" type="array">
+               <obj_property name="ElementShortName">[3][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[3][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[4]" type="array">
+               <obj_property name="ElementShortName">[4][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[4][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[5]" type="array">
+               <obj_property name="ElementShortName">[5][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[5][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[6]" type="array">
+               <obj_property name="ElementShortName">[6][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[6][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[7]" type="array">
+               <obj_property name="ElementShortName">[7][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[7][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[8]" type="array">
+               <obj_property name="ElementShortName">[8][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[8][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[9]" type="array">
+               <obj_property name="ElementShortName">[9][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[9][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[10]" type="array">
+               <obj_property name="ElementShortName">[10][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[10][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[11]" type="array">
+               <obj_property name="ElementShortName">[11][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[11][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[12]" type="array">
+               <obj_property name="ElementShortName">[12][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[12][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[13]" type="array">
+               <obj_property name="ElementShortName">[13][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[13][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[14]" type="array">
+               <obj_property name="ElementShortName">[14][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[14][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[15]" type="array">
+               <obj_property name="ElementShortName">[15][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[15][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[16]" type="array">
+               <obj_property name="ElementShortName">[16][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[16][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[17]" type="array">
+               <obj_property name="ElementShortName">[17][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[17][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[18]" type="array">
+               <obj_property name="ElementShortName">[18][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[18][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[19]" type="array">
+               <obj_property name="ElementShortName">[19][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[19][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[20]" type="array">
+               <obj_property name="ElementShortName">[20][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[20][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[21]" type="array">
+               <obj_property name="ElementShortName">[21][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[21][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[22]" type="array">
+               <obj_property name="ElementShortName">[22][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[22][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[23]" type="array">
+               <obj_property name="ElementShortName">[23][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[23][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[24]" type="array">
+               <obj_property name="ElementShortName">[24][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[24][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[25]" type="array">
+               <obj_property name="ElementShortName">[25][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[25][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[26]" type="array">
+               <obj_property name="ElementShortName">[26][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[26][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[27]" type="array">
+               <obj_property name="ElementShortName">[27][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[27][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[28]" type="array">
+               <obj_property name="ElementShortName">[28][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[28][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[29]" type="array">
+               <obj_property name="ElementShortName">[29][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[29][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[30]" type="array">
+               <obj_property name="ElementShortName">[30][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[30][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_weight_matrix_3[31]" type="array">
+               <obj_property name="ElementShortName">[31][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[31][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/activation_matrix_3" type="array">
+            <obj_property name="ElementShortName">activation_matrix_3[0:26][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">activation_matrix_3[0:26][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[0]" type="array">
+               <obj_property name="ElementShortName">[0][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[0][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[1]" type="array">
+               <obj_property name="ElementShortName">[1][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[1][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[2]" type="array">
+               <obj_property name="ElementShortName">[2][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[2][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[3]" type="array">
+               <obj_property name="ElementShortName">[3][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[3][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[4]" type="array">
+               <obj_property name="ElementShortName">[4][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[4][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[5]" type="array">
+               <obj_property name="ElementShortName">[5][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[5][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[6]" type="array">
+               <obj_property name="ElementShortName">[6][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[6][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[7]" type="array">
+               <obj_property name="ElementShortName">[7][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[7][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[8]" type="array">
+               <obj_property name="ElementShortName">[8][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[8][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[9]" type="array">
+               <obj_property name="ElementShortName">[9][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[9][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[10]" type="array">
+               <obj_property name="ElementShortName">[10][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[10][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[11]" type="array">
+               <obj_property name="ElementShortName">[11][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[11][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[12]" type="array">
+               <obj_property name="ElementShortName">[12][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[12][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[13]" type="array">
+               <obj_property name="ElementShortName">[13][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[13][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[14]" type="array">
+               <obj_property name="ElementShortName">[14][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[14][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[15]" type="array">
+               <obj_property name="ElementShortName">[15][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[15][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[16]" type="array">
+               <obj_property name="ElementShortName">[16][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[16][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[17]" type="array">
+               <obj_property name="ElementShortName">[17][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[17][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[18]" type="array">
+               <obj_property name="ElementShortName">[18][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[18][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[19]" type="array">
+               <obj_property name="ElementShortName">[19][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[19][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[20]" type="array">
+               <obj_property name="ElementShortName">[20][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[20][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[21]" type="array">
+               <obj_property name="ElementShortName">[21][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[21][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[22]" type="array">
+               <obj_property name="ElementShortName">[22][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[22][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[23]" type="array">
+               <obj_property name="ElementShortName">[23][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[23][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[24]" type="array">
+               <obj_property name="ElementShortName">[24][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[24][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[25]" type="array">
+               <obj_property name="ElementShortName">[25][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[25][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/activation_matrix_3[26]" type="array">
+               <obj_property name="ElementShortName">[26][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[26][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/preproc_activation_matrix_3" type="array">
+            <obj_property name="ElementShortName">preproc_activation_matrix_3[0:15][0:31][31:0]</obj_property>
+            <obj_property name="ObjectShortName">preproc_activation_matrix_3[0:15][0:31][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <wvobject fp_name="/tb_computing_unit/preproc_activation_matrix_3[0]" type="array">
+               <obj_property name="ElementShortName">[0][0:31][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[0][0:31][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_activation_matrix_3[1]" type="array">
+               <obj_property name="ElementShortName">[1][0:31][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[1][0:31][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_activation_matrix_3[2]" type="array">
+               <obj_property name="ElementShortName">[2][0:31][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[2][0:31][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_activation_matrix_3[3]" type="array">
+               <obj_property name="ElementShortName">[3][0:31][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[3][0:31][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_activation_matrix_3[4]" type="array">
+               <obj_property name="ElementShortName">[4][0:31][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[4][0:31][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_activation_matrix_3[5]" type="array">
+               <obj_property name="ElementShortName">[5][0:31][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[5][0:31][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_activation_matrix_3[6]" type="array">
+               <obj_property name="ElementShortName">[6][0:31][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[6][0:31][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_activation_matrix_3[7]" type="array">
+               <obj_property name="ElementShortName">[7][0:31][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[7][0:31][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_activation_matrix_3[8]" type="array">
+               <obj_property name="ElementShortName">[8][0:31][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[8][0:31][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_activation_matrix_3[9]" type="array">
+               <obj_property name="ElementShortName">[9][0:31][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[9][0:31][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_activation_matrix_3[10]" type="array">
+               <obj_property name="ElementShortName">[10][0:31][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[10][0:31][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_activation_matrix_3[11]" type="array">
+               <obj_property name="ElementShortName">[11][0:31][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[11][0:31][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_activation_matrix_3[12]" type="array">
+               <obj_property name="ElementShortName">[12][0:31][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[12][0:31][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_activation_matrix_3[13]" type="array">
+               <obj_property name="ElementShortName">[13][0:31][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[13][0:31][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_activation_matrix_3[14]" type="array">
+               <obj_property name="ElementShortName">[14][0:31][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[14][0:31][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/preproc_activation_matrix_3[15]" type="array">
+               <obj_property name="ElementShortName">[15][0:31][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[15][0:31][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/offset_matrix_3" type="array">
+            <obj_property name="ElementShortName">offset_matrix_3[0:15][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">offset_matrix_3[0:15][0:15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/mul_result_matrix_3" type="array">
+            <obj_property name="ElementShortName">mul_result_matrix_3[0:15][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">mul_result_matrix_3[0:15][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="/tb_computing_unit/mul_result_matrix_3[0]" type="array">
+               <obj_property name="ElementShortName">[0][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[0][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/mul_result_matrix_3[1]" type="array">
+               <obj_property name="ElementShortName">[1][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[1][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/mul_result_matrix_3[2]" type="array">
+               <obj_property name="ElementShortName">[2][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[2][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/mul_result_matrix_3[3]" type="array">
+               <obj_property name="ElementShortName">[3][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[3][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/mul_result_matrix_3[4]" type="array">
+               <obj_property name="ElementShortName">[4][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[4][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/mul_result_matrix_3[5]" type="array">
+               <obj_property name="ElementShortName">[5][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[5][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/mul_result_matrix_3[6]" type="array">
+               <obj_property name="ElementShortName">[6][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[6][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/mul_result_matrix_3[7]" type="array">
+               <obj_property name="ElementShortName">[7][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[7][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/mul_result_matrix_3[8]" type="array">
+               <obj_property name="ElementShortName">[8][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[8][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/mul_result_matrix_3[9]" type="array">
+               <obj_property name="ElementShortName">[9][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[9][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/mul_result_matrix_3[10]" type="array">
+               <obj_property name="ElementShortName">[10][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[10][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/mul_result_matrix_3[11]" type="array">
+               <obj_property name="ElementShortName">[11][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[11][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/mul_result_matrix_3[12]" type="array">
+               <obj_property name="ElementShortName">[12][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[12][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/mul_result_matrix_3[13]" type="array">
+               <obj_property name="ElementShortName">[13][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[13][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/mul_result_matrix_3[14]" type="array">
+               <obj_property name="ElementShortName">[14][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[14][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb_computing_unit/mul_result_matrix_3[15]" type="array">
+               <obj_property name="ElementShortName">[15][0:15][31:0]</obj_property>
+               <obj_property name="ObjectShortName">[15][0:15][31:0]</obj_property>
+               <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/offset_result_matrix_3" type="array">
+            <obj_property name="ElementShortName">offset_result_matrix_3[0:15][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">offset_result_matrix_3[0:15][0:15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu_result_matrix_3" type="array">
+            <obj_property name="ElementShortName">cu_result_matrix_3[0:15][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">cu_result_matrix_3[0:15][0:15][31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/iteration_count" type="array">
+            <obj_property name="ElementShortName">iteration_count[31:0]</obj_property>
+            <obj_property name="ObjectShortName">iteration_count[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/tmp_proc_count" type="array">
+            <obj_property name="ElementShortName">tmp_proc_count[31:0]</obj_property>
+            <obj_property name="ObjectShortName">tmp_proc_count[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/WEIGHT_X_SIZE_3" type="array">
+            <obj_property name="ElementShortName">WEIGHT_X_SIZE_3[31:0]</obj_property>
+            <obj_property name="ObjectShortName">WEIGHT_X_SIZE_3[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/WEIGHT_Y_SIZE_3" type="array">
+            <obj_property name="ElementShortName">WEIGHT_Y_SIZE_3[31:0]</obj_property>
+            <obj_property name="ObjectShortName">WEIGHT_Y_SIZE_3[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/ACTIVATION_X_SIZE_3" type="array">
+            <obj_property name="ElementShortName">ACTIVATION_X_SIZE_3[31:0]</obj_property>
+            <obj_property name="ObjectShortName">ACTIVATION_X_SIZE_3[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/ACTIVATION_Y_SIZE_3" type="array">
+            <obj_property name="ElementShortName">ACTIVATION_Y_SIZE_3[31:0]</obj_property>
+            <obj_property name="ObjectShortName">ACTIVATION_Y_SIZE_3[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/OFFSET_X_SIZE_3" type="array">
+            <obj_property name="ElementShortName">OFFSET_X_SIZE_3[31:0]</obj_property>
+            <obj_property name="ObjectShortName">OFFSET_X_SIZE_3[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/OFFSET_Y_SIZE_3" type="array">
+            <obj_property name="ElementShortName">OFFSET_Y_SIZE_3[31:0]</obj_property>
+            <obj_property name="ObjectShortName">OFFSET_Y_SIZE_3[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/LINES_NUM" type="array">
+            <obj_property name="ElementShortName">LINES_NUM[31:0]</obj_property>
+            <obj_property name="ObjectShortName">LINES_NUM[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/PRE_WEIGHT_X_SIZE_3" type="array">
+            <obj_property name="ElementShortName">PRE_WEIGHT_X_SIZE_3[31:0]</obj_property>
+            <obj_property name="ObjectShortName">PRE_WEIGHT_X_SIZE_3[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/PRE_WEIGHT_Y_SIZE_3" type="array">
+            <obj_property name="ElementShortName">PRE_WEIGHT_Y_SIZE_3[31:0]</obj_property>
+            <obj_property name="ObjectShortName">PRE_WEIGHT_Y_SIZE_3[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/PRE_ACTIVATION_X_SIZE_3" type="array">
+            <obj_property name="ElementShortName">PRE_ACTIVATION_X_SIZE_3[31:0]</obj_property>
+            <obj_property name="ObjectShortName">PRE_ACTIVATION_X_SIZE_3[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/PRE_ACTIVATION_Y_SIZE_3" type="array">
+            <obj_property name="ElementShortName">PRE_ACTIVATION_Y_SIZE_3[31:0]</obj_property>
+            <obj_property name="ObjectShortName">PRE_ACTIVATION_Y_SIZE_3[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/log_fd" type="array">
+         <obj_property name="ElementShortName">log_fd[31:0]</obj_property>
+         <obj_property name="ObjectShortName">log_fd[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/SYSTOL_ACTIVATION_COUNT" type="array">
+         <obj_property name="ElementShortName">SYSTOL_ACTIVATION_COUNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SYSTOL_ACTIVATION_COUNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/SYSTOL_WEIGHT_COUNT" type="array">
+         <obj_property name="ElementShortName">SYSTOL_WEIGHT_COUNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SYSTOL_WEIGHT_COUNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/ACTIVATION_QUEUE_DEPTH" type="array">
+         <obj_property name="ElementShortName">ACTIVATION_QUEUE_DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ACTIVATION_QUEUE_DEPTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/WEIGHT_QUEUE_DEPTH" type="array">
+         <obj_property name="ElementShortName">WEIGHT_QUEUE_DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WEIGHT_QUEUE_DEPTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/OFFSET_QUEUE_DEPTH" type="array">
+         <obj_property name="ElementShortName">OFFSET_QUEUE_DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OFFSET_QUEUE_DEPTH[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group53" type="group">
+      <obj_property name="label">CompUnit inter signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_computing_unit/cu/clk_i" type="logic">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/rst_i" type="logic">
+         <obj_property name="ElementShortName">rst_i</obj_property>
+         <obj_property name="ObjectShortName">rst_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/rst_busy" type="logic">
+         <obj_property name="ElementShortName">rst_busy</obj_property>
+         <obj_property name="ObjectShortName">rst_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/weight_update_i" type="logic">
+         <obj_property name="ElementShortName">weight_update_i</obj_property>
+         <obj_property name="ObjectShortName">weight_update_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/activation_i" type="array">
+         <obj_property name="ElementShortName">activation_i[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">activation_i[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/activation_wr_en_i" type="logic">
+         <obj_property name="ElementShortName">activation_wr_en_i</obj_property>
+         <obj_property name="ObjectShortName">activation_wr_en_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/activation_full_o" type="logic">
+         <obj_property name="ElementShortName">activation_full_o</obj_property>
+         <obj_property name="ObjectShortName">activation_full_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/weight_i" type="array">
+         <obj_property name="ElementShortName">weight_i[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_i[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/weight_wr_en_i" type="logic">
+         <obj_property name="ElementShortName">weight_wr_en_i</obj_property>
+         <obj_property name="ObjectShortName">weight_wr_en_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/weight_full_o" type="logic">
+         <obj_property name="ElementShortName">weight_full_o</obj_property>
+         <obj_property name="ObjectShortName">weight_full_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/accum_adder_chain_set_i" type="array">
+         <obj_property name="ElementShortName">accum_adder_chain_set_i[2:15]</obj_property>
+         <obj_property name="ObjectShortName">accum_adder_chain_set_i[2:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/accum_out_data_mux_i" type="array">
+         <obj_property name="ElementShortName">accum_out_data_mux_i[1:15]</obj_property>
+         <obj_property name="ObjectShortName">accum_out_data_mux_i[1:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/offset_i" type="array">
+         <obj_property name="ElementShortName">offset_i[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">offset_i[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/offset_wr_en_i" type="logic">
+         <obj_property name="ElementShortName">offset_wr_en_i</obj_property>
+         <obj_property name="ObjectShortName">offset_wr_en_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/offset_full_o" type="logic">
+         <obj_property name="ElementShortName">offset_full_o</obj_property>
+         <obj_property name="ObjectShortName">offset_full_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/result_o" type="array">
+         <obj_property name="ElementShortName">result_o[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">result_o[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_din" type="array">
+         <obj_property name="ElementShortName">activation_fifo_din[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">activation_fifo_din[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_wr_en" type="logic">
+         <obj_property name="ElementShortName">activation_fifo_wr_en</obj_property>
+         <obj_property name="ObjectShortName">activation_fifo_wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_rd_en" type="logic">
+         <obj_property name="ElementShortName">activation_fifo_rd_en</obj_property>
+         <obj_property name="ObjectShortName">activation_fifo_rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_dout" type="array">
+         <obj_property name="ElementShortName">activation_fifo_dout[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">activation_fifo_dout[0:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_dout[0]" type="array">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_dout[1]" type="array">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_dout[2]" type="array">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_dout[3]" type="array">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_dout[4]" type="array">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_dout[5]" type="array">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_dout[6]" type="array">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_dout[7]" type="array">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_dout[8]" type="array">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_dout[9]" type="array">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_dout[10]" type="array">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_dout[11]" type="array">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_dout[12]" type="array">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_dout[13]" type="array">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_dout[14]" type="array">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_dout[15]" type="array">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_full" type="array">
+         <obj_property name="ElementShortName">activation_fifo_full[0:15]</obj_property>
+         <obj_property name="ObjectShortName">activation_fifo_full[0:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_empty" type="array">
+         <obj_property name="ElementShortName">activation_fifo_empty[0:15]</obj_property>
+         <obj_property name="ObjectShortName">activation_fifo_empty[0:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/activation_fifo_busy" type="array">
+         <obj_property name="ElementShortName">activation_fifo_busy[0:15]</obj_property>
+         <obj_property name="ObjectShortName">activation_fifo_busy[0:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/weight_fifo_din" type="array">
+         <obj_property name="ElementShortName">weight_fifo_din[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_fifo_din[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/weight_fifo_wr_en" type="logic">
+         <obj_property name="ElementShortName">weight_fifo_wr_en</obj_property>
+         <obj_property name="ObjectShortName">weight_fifo_wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/weight_fifo_rd_en" type="logic">
+         <obj_property name="ElementShortName">weight_fifo_rd_en</obj_property>
+         <obj_property name="ObjectShortName">weight_fifo_rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/weight_fifo_dout" type="array">
+         <obj_property name="ElementShortName">weight_fifo_dout[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_fifo_dout[0:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/weight_fifo_full" type="array">
+         <obj_property name="ElementShortName">weight_fifo_full[0:15]</obj_property>
+         <obj_property name="ObjectShortName">weight_fifo_full[0:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/weight_fifo_empty" type="array">
+         <obj_property name="ElementShortName">weight_fifo_empty[0:15]</obj_property>
+         <obj_property name="ObjectShortName">weight_fifo_empty[0:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/weight_fifo_busy" type="array">
+         <obj_property name="ElementShortName">weight_fifo_busy[0:15]</obj_property>
+         <obj_property name="ObjectShortName">weight_fifo_busy[0:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/offset_fifo_din" type="array">
+         <obj_property name="ElementShortName">offset_fifo_din[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">offset_fifo_din[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/offset_fifo_wr_en" type="logic">
+         <obj_property name="ElementShortName">offset_fifo_wr_en</obj_property>
+         <obj_property name="ObjectShortName">offset_fifo_wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/offset_fifo_rd_en" type="logic">
+         <obj_property name="ElementShortName">offset_fifo_rd_en</obj_property>
+         <obj_property name="ObjectShortName">offset_fifo_rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/offset_fifo_dout" type="array">
+         <obj_property name="ElementShortName">offset_fifo_dout[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">offset_fifo_dout[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/offset_fifo_full" type="array">
+         <obj_property name="ElementShortName">offset_fifo_full[0:15]</obj_property>
+         <obj_property name="ObjectShortName">offset_fifo_full[0:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/offset_fifo_empty" type="array">
+         <obj_property name="ElementShortName">offset_fifo_empty[0:15]</obj_property>
+         <obj_property name="ObjectShortName">offset_fifo_empty[0:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/offset_fifo_busy" type="array">
+         <obj_property name="ElementShortName">offset_fifo_busy[0:15]</obj_property>
+         <obj_property name="ObjectShortName">offset_fifo_busy[0:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/systol_arr_dout" type="array">
+         <obj_property name="ElementShortName">systol_arr_dout[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">systol_arr_dout[0:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/systol_arr_weight_update" type="logic">
+         <obj_property name="ElementShortName">systol_arr_weight_update</obj_property>
+         <obj_property name="ObjectShortName">systol_arr_weight_update</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/accum_dout" type="array">
+         <obj_property name="ElementShortName">accum_dout[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">accum_dout[0:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/offsets_dout" type="array">
+         <obj_property name="ElementShortName">offsets_dout[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">offsets_dout[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/activation_dout" type="array">
+         <obj_property name="ElementShortName">activation_dout[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">activation_dout[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/weight_update_ctr" type="array">
+         <obj_property name="ElementShortName">weight_update_ctr[4:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_update_ctr[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/SYSTOL_ACTIVATION_COUNT" type="array">
+         <obj_property name="ElementShortName">SYSTOL_ACTIVATION_COUNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SYSTOL_ACTIVATION_COUNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/ACTIVATION_QUEUE_DEPTH" type="array">
+         <obj_property name="ElementShortName">ACTIVATION_QUEUE_DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ACTIVATION_QUEUE_DEPTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/SYSTOL_WEIGHT_COUNT" type="array">
+         <obj_property name="ElementShortName">SYSTOL_WEIGHT_COUNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">SYSTOL_WEIGHT_COUNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/WEIGHT_QUEUE_DEPTH" type="array">
+         <obj_property name="ElementShortName">WEIGHT_QUEUE_DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WEIGHT_QUEUE_DEPTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/OFFSET_QUEUE_DEPTH" type="array">
+         <obj_property name="ElementShortName">OFFSET_QUEUE_DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OFFSET_QUEUE_DEPTH[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group552" type="group">
+      <obj_property name="label">SystolArray inter signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_computing_unit/cu/systol_arr/clk_i" type="logic">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/systol_arr/rst_i" type="logic">
+         <obj_property name="ElementShortName">rst_i</obj_property>
+         <obj_property name="ObjectShortName">rst_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/systol_arr/weight_update_i" type="logic">
+         <obj_property name="ElementShortName">weight_update_i</obj_property>
+         <obj_property name="ObjectShortName">weight_update_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/systol_arr/activation_i" type="array">
+         <obj_property name="ElementShortName">activation_i[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">activation_i[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/systol_arr/weight_i" type="array">
+         <obj_property name="ElementShortName">weight_i[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_i[0:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/systol_arr/result_o" type="array">
+         <obj_property name="ElementShortName">result_o[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">result_o[0:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/systol_arr/state" type="logic">
+         <obj_property name="ElementShortName">state</obj_property>
+         <obj_property name="ObjectShortName">state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/systol_arr/next_state" type="logic">
+         <obj_property name="ElementShortName">next_state</obj_property>
+         <obj_property name="ObjectShortName">next_state</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/systol_arr/mac_res" type="array">
+         <obj_property name="ElementShortName">mac_res[0:15][0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">mac_res[0:15][0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/systol_arr/weight_reg" type="array">
+         <obj_property name="ElementShortName">weight_reg[0:15][0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">weight_reg[0:15][0:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/weight_reg[0]" type="array">
+            <obj_property name="ElementShortName">[0][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/weight_reg[1]" type="array">
+            <obj_property name="ElementShortName">[1][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/weight_reg[2]" type="array">
+            <obj_property name="ElementShortName">[2][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/weight_reg[3]" type="array">
+            <obj_property name="ElementShortName">[3][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/weight_reg[4]" type="array">
+            <obj_property name="ElementShortName">[4][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/weight_reg[5]" type="array">
+            <obj_property name="ElementShortName">[5][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/weight_reg[6]" type="array">
+            <obj_property name="ElementShortName">[6][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/weight_reg[7]" type="array">
+            <obj_property name="ElementShortName">[7][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/weight_reg[8]" type="array">
+            <obj_property name="ElementShortName">[8][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/weight_reg[9]" type="array">
+            <obj_property name="ElementShortName">[9][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/weight_reg[10]" type="array">
+            <obj_property name="ElementShortName">[10][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/weight_reg[11]" type="array">
+            <obj_property name="ElementShortName">[11][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/weight_reg[12]" type="array">
+            <obj_property name="ElementShortName">[12][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/weight_reg[13]" type="array">
+            <obj_property name="ElementShortName">[13][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/weight_reg[14]" type="array">
+            <obj_property name="ElementShortName">[14][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/weight_reg[15]" type="array">
+            <obj_property name="ElementShortName">[15][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/systol_arr/activation_reg" type="array">
+         <obj_property name="ElementShortName">activation_reg[0:15][0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">activation_reg[0:15][0:15][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/activation_reg[0]" type="array">
+            <obj_property name="ElementShortName">[0][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/activation_reg[1]" type="array">
+            <obj_property name="ElementShortName">[1][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/activation_reg[2]" type="array">
+            <obj_property name="ElementShortName">[2][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/activation_reg[3]" type="array">
+            <obj_property name="ElementShortName">[3][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/activation_reg[4]" type="array">
+            <obj_property name="ElementShortName">[4][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/activation_reg[5]" type="array">
+            <obj_property name="ElementShortName">[5][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/activation_reg[6]" type="array">
+            <obj_property name="ElementShortName">[6][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/activation_reg[7]" type="array">
+            <obj_property name="ElementShortName">[7][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/activation_reg[8]" type="array">
+            <obj_property name="ElementShortName">[8][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/activation_reg[9]" type="array">
+            <obj_property name="ElementShortName">[9][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/activation_reg[10]" type="array">
+            <obj_property name="ElementShortName">[10][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/activation_reg[11]" type="array">
+            <obj_property name="ElementShortName">[11][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/activation_reg[12]" type="array">
+            <obj_property name="ElementShortName">[12][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/activation_reg[13]" type="array">
+            <obj_property name="ElementShortName">[13][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/activation_reg[14]" type="array">
+            <obj_property name="ElementShortName">[14][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_computing_unit/cu/systol_arr/activation_reg[15]" type="array">
+            <obj_property name="ElementShortName">[15][0:15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][0:15][31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/systol_arr/ACTIVATION_COUNT" type="array">
+         <obj_property name="ElementShortName">ACTIVATION_COUNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ACTIVATION_COUNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/systol_arr/WEIGHT_COUNT" type="array">
+         <obj_property name="ElementShortName">WEIGHT_COUNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WEIGHT_COUNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/systol_arr/DATA_FILL" type="array">
+         <obj_property name="ElementShortName">DATA_FILL[1:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_FILL[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/systol_arr/CALCULATION" type="array">
+         <obj_property name="ElementShortName">CALCULATION[1:0]</obj_property>
+         <obj_property name="ObjectShortName">CALCULATION[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group207" type="group">
+      <obj_property name="label">Accum inter signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_computing_unit/cu/accum/clk_i" type="logic">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/accum/rst_i" type="logic">
+         <obj_property name="ElementShortName">rst_i</obj_property>
+         <obj_property name="ObjectShortName">rst_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/accum/data_i" type="array">
+         <obj_property name="ElementShortName">data_i[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_i[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/accum/adder_chain_set_i" type="array">
+         <obj_property name="ElementShortName">adder_chain_set_i[2:15]</obj_property>
+         <obj_property name="ObjectShortName">adder_chain_set_i[2:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/accum/out_data_mux_i" type="array">
+         <obj_property name="ElementShortName">out_data_mux_i[1:15]</obj_property>
+         <obj_property name="ObjectShortName">out_data_mux_i[1:15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/accum/data_o" type="array">
+         <obj_property name="ElementShortName">data_o[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_o[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/accum/in_data_buf" type="array">
+         <obj_property name="ElementShortName">in_data_buf[0:15][2:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">in_data_buf[0:15][2:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/accum/accumulation_reg" type="array">
+         <obj_property name="ElementShortName">accumulation_reg[1:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">accumulation_reg[1:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/accum/adder_op1" type="array">
+         <obj_property name="ElementShortName">adder_op1[1:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">adder_op1[1:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/accum/IN_SIZE" type="array">
+         <obj_property name="ElementShortName">IN_SIZE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IN_SIZE[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group218" type="group">
+      <obj_property name="label">Offset inter signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_computing_unit/cu/offsets/clk_i" type="logic">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/offsets/rst_i" type="logic">
+         <obj_property name="ElementShortName">rst_i</obj_property>
+         <obj_property name="ObjectShortName">rst_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/offsets/data_i" type="array">
+         <obj_property name="ElementShortName">data_i[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_i[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/offsets/offset_i" type="array">
+         <obj_property name="ElementShortName">offset_i[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">offset_i[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/offsets/data_o" type="array">
+         <obj_property name="ElementShortName">data_o[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_o[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/offsets/IN_SIZE" type="array">
+         <obj_property name="ElementShortName">IN_SIZE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IN_SIZE[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group225" type="group">
+      <obj_property name="label">Activation inter signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb_computing_unit/cu/activation/clk_i" type="logic">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/activation/rst_i" type="logic">
+         <obj_property name="ElementShortName">rst_i</obj_property>
+         <obj_property name="ObjectShortName">rst_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/activation/data_i" type="array">
+         <obj_property name="ElementShortName">data_i[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_i[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/activation/data_o" type="array">
+         <obj_property name="ElementShortName">data_o[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_o[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_computing_unit/cu/activation/IN_SIZE" type="array">
+         <obj_property name="ElementShortName">IN_SIZE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IN_SIZE[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
