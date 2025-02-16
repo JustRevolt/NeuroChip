@@ -9,4 +9,8 @@
 !*.xdc
 !*.wcfg
 !*.bit
+!*.py
+!*.kt
+!*.sh
+!*.iml
 
