@@ -8,7 +8,7 @@ Table of Contents:
 
 ## NeuroChip architecture <a name="NeuroChip-architecture"></a>
 
-<img alt="NeuroChip system architecture" src="docs\imgs\neurochip_sys_arch.png" width="800"/>
+<img alt="NeuroChip system architecture" src="docs/imgs/neurochip_sys_arch.png" width="800"/>
 
 На схеме представлена системная архитектура Нейрочипа.
 
