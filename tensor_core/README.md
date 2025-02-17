@@ -16,7 +16,7 @@
 
 ### Архитектура. <a name="Tensor-core-architecture"></a>
 
-<img alt="tensor core architecture with fully separated bus" src="doc/imgs/architecture-fully_separated_bus_Mem-CU.png" width="800"/>
+<img alt="tensor core architecture with fully separated bus" src="doc/imgs/Tensor_core_architecture.png" width="800"/>
 
 ### Микроархитектура вычислительной подсистемы: <a name="Tensor-core-computing-unit-microarchitecture"></a>
 
