@@ -22,27 +22,27 @@
 
 - __Микроархитектура систолического массива__
 
-<img alt="Systolic array microarchitecture" src="doc/imgs/microarchitecture-Systolic_Array.png" width="600"/>
+    <img alt="Systolic array microarchitecture" src="doc/imgs/microarchitecture-Systolic_Array.png" width="600"/>
 
 - __Микроархитектура MAC блоков__
 
-<img alt="MAC microarchitecture" src="doc/imgs/microarchitecture-MAC.png" width="400"/>
+    <img alt="MAC microarchitecture" src="doc/imgs/microarchitecture-MAC.png" width="400"/>
 
 - __Микроархитектура блока аккумулирования__
 
-<img alt="Accumulators microarchitecture" src="doc/imgs/microarchitecture-Accumulators.png" width="700"/>
+    <img alt="Accumulators microarchitecture" src="doc/imgs/microarchitecture-Accumulators.png" width="700"/>
 
 - __Микроархитектура блока смещений__
 
-<img alt="Offsets microarchitecture" src="doc/imgs/microarchitecture-Offsets.png" width="500"/>
+    <img alt="Offsets microarchitecture" src="doc/imgs/microarchitecture-Offsets.png" width="500"/>
 
 - __Микроархитектура блока активаций__
 
-<img alt="Activation microarchitecture" src="doc/imgs/microarchitecture-Activation.png" width="400"/>
+    <img alt="Activation microarchitecture" src="doc/imgs/microarchitecture-Activation.png" width="400"/>
 
 - __Микроархитектура блока пуллинга__
 
-<img alt="Polling microarchitecture" src="doc/imgs/microarchitecture-Polling.png" width="400"/>
+    <img alt="Polling microarchitecture" src="doc/imgs/microarchitecture-Polling.png" width="400"/>
 
 
 ## Структура директории тензорного ядра <a name="Tensor-core-dir-structure"></a>
