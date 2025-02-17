@@ -1,68 +1,68 @@
-# Tensor core
+# Тензорное ядро
 
-Prototype of Tensor core for CNN processing acceleration
+Прототип тензорного ядра для ускорения расчета сверточных нейронных сетей
 
 ----
 
-Table of Contents:
+Содержание:
 
-1. [Description](#Tensor-core-Description)
-    1. [Tensor core architecture](#Tensor-core-architecture)
-    2. [Microarchitecture of tensor core computing unit sub-blocks](#Tensor-core-computing-unit-microarchitecture)
-2. [Tensor core dir structure](#Tensor-core-dir-structure)
-3. [Simulation instruction](#Tensor-core-Simulation-instruction)
+1. [Описание](#Tensor-core-Description)
+    1. [Архитектура](#Tensor-core-architecture)
+    2. [Микроархитектура вычислительной подсистемы](#Tensor-core-computing-unit-microarchitecture)
+2. [Структура директории тензорного ядра](#Tensor-core-dir-structure)
+3. [Иструкция по моделированию](#Tensor-core-Simulation-instruction)
 
-## Description <a name="Tensor-core-Description"></a>
+## Описание <a name="Tensor-core-Description"></a>
 
-### Tensor core architecture. <a name="Tensor-core-architecture"></a>
+### Архитектура. <a name="Tensor-core-architecture"></a>
 
 <img alt="tensor core architecture with fully separated bus" src="doc/imgs/architecture-fully_separated_bus_Mem-CU.png" width="800"/>
 
-### Microarchitecture of tensor core computing unit sub-blocks: <a name="Tensor-core-computing-unit-microarchitecture"></a>
+### Микроархитектура вычислительной подсистемы: <a name="Tensor-core-computing-unit-microarchitecture"></a>
 
-- __Systolic array microarchitecture__
+- __Микроархитектура систолического массива__
 
 <img alt="Systolic array microarchitecture" src="doc/imgs/microarchitecture-Systolic_Array.png" width="600"/>
 
-- __MAC sub-block microarchitecture__
+- __Микроархитектура MAC блоков__
 
 <img alt="MAC microarchitecture" src="doc/imgs/microarchitecture-MAC.png" width="400"/>
 
-- __Accumulators sub-block microarchitecture__
+- __Микроархитектура блока аккумулирования__
 
 <img alt="Accumulators microarchitecture" src="doc/imgs/microarchitecture-Accumulators.png" width="700"/>
 
-- __Offsets sub-block microarchitecture__
+- __Микроархитектура блока смещений__
 
 <img alt="Offsets microarchitecture" src="doc/imgs/microarchitecture-Offsets.png" width="500"/>
 
-- __Activation sub-block microarchitecture__
+- __Микроархитектура блока активаций__
 
 <img alt="Activation microarchitecture" src="doc/imgs/microarchitecture-Activation.png" width="400"/>
 
-- __Polling sub-block microarchitecture__
+- __Микроархитектура блока пуллинга__
 
 <img alt="Polling microarchitecture" src="doc/imgs/microarchitecture-Polling.png" width="400"/>
 
 
-## Tensor core dir structure <a name="Tensor-core-dir-structure"></a>
+## Структура директории тензорного ядра <a name="Tensor-core-dir-structure"></a>
 
-`doc` - documentation files for used libraries and useful information files
+`doc` - файлы с документации для используемых библиотек и полезной информацией
 
-`src` - source files of neural processor modules
+`src` - исходные файлы модулей тензорного ядра
 
-`tb` - testbench files for testing neural processor modules in a simulation environment
+`tb` - файлы тестового окружения для тестирования модулей тензорного ядра в среде моделирования
 
-`xc7a100tcsg324_project` - Xilinx Vivado project for xc7a100tcsg324 FPGA
+`xc7a100tcsg324_project` - Проект Xilinx Vivado для ПЛИС xc7a100tcsg324
 
-`xc7a100tcsg324_project/waveform_cfg` - Xilinx Vivado waveform configuration files for all testbenches
+`xc7a100tcsg324_project/waveform_cfg` - Файлы конфигурации временных диаграмм Xilinx Vivado
 
-## Simulation instruction <a name="Tensor-core-Simulation-instruction"></a>
+## Иструкция по моделированию <a name="Tensor-core-Simulation-instruction"></a>
 
-Xilinx Vivado CAD verison required: v2019.1 (64-bit)
+Требуется версия Xilinx Vivado CAD: v2019.1 (64-разрядная версия)
 
-1. Download and install Xilinx Vivado CAD
-2. Open Vivado project `/xc7a100tcsg324_project/xc7a100tcsg324_project.xpr`
-3. Select necessary testbench file and "Set as top"
-4. Start "Behavioral Simulation"
-5. The test results are displayed in the TCL console
+1. Загрузите и установите Xilinx Vivado CAD.
+2. Откройте проект Vivado `/xc7a100tcsg324_project/xc7a100tcsg324_project.xpr`
+3. Выберите необходимый файл testbench и установите как основной ("Set as top").
+4. Запустите поведенческое моделирование ("Behavioral Simulation")
+5. Результаты тестирования отобразятся в консоли TCL
